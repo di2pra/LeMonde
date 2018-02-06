@@ -26,10 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().shadowImage = UIImage()
         UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
         
-        SDImageCache.shared().clearMemory()
-        SDImageCache.shared().clearDisk()
-        
-        // chqnge status bar style
+        // change status bar style
         UIApplication.shared.statusBarStyle = .lightContent
         
         return true
