@@ -18,6 +18,8 @@ struct Settings {
     static let mainColor = UIColor(red:0.26, green:0.21, blue:0.24, alpha:1.0) // #43353D
     static let mainTextColor : UIColor = .white
     static let secondaryTextColor : UIColor = UIColor(red:0.47, green:0.44, blue:0.44, alpha:1.0) // #776F70
+    
+    // UI Style
     static let cornerRadius:CGFloat = 10
     
 }

@@ -53,7 +53,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lundi 02 Janvier" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Npz-YO-5EA">
-                                        <rect key="frame" x="15" y="167" width="94.5" height="19.5"/>
+                                        <rect key="frame" x="113" y="167" width="94.5" height="19.5"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="19.5" id="UdW-64-U7Y"/>
                                         </constraints>
@@ -65,11 +65,11 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="Npz-YO-5EA" secondAttribute="bottom" id="MOY-dS-NmU"/>
-                                    <constraint firstItem="Npz-YO-5EA" firstAttribute="leading" secondItem="bdc-FP-nkc" secondAttribute="leading" constant="15" id="iBz-yn-gax"/>
                                     <constraint firstItem="Npz-YO-5EA" firstAttribute="top" secondItem="ws4-K4-aXZ" secondAttribute="bottom" constant="8" id="kLF-H6-wf1"/>
                                     <constraint firstAttribute="trailing" secondItem="ws4-K4-aXZ" secondAttribute="trailing" constant="15" id="l8G-oq-wmV"/>
                                     <constraint firstItem="ws4-K4-aXZ" firstAttribute="top" secondItem="bdc-FP-nkc" secondAttribute="top" constant="10" id="qVH-4K-ozQ"/>
                                     <constraint firstItem="ws4-K4-aXZ" firstAttribute="leading" secondItem="bdc-FP-nkc" secondAttribute="leading" constant="15" id="wQs-qi-DST"/>
+                                    <constraint firstItem="Npz-YO-5EA" firstAttribute="centerX" secondItem="bdc-FP-nkc" secondAttribute="centerX" id="xet-mt-CfC"/>
                                 </constraints>
                             </view>
                         </subviews>
